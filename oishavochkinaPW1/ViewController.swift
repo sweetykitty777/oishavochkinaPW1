@@ -47,7 +47,6 @@ class ViewController: UIViewController {
         button?.isEnabled = false
         UIView.animate(withDuration: 2, animations: {
         for view in self.views {
-        view.layer.cornerRadius = 10
         view.backgroundColor = set.popFirst()
         }
         }) { completion in
